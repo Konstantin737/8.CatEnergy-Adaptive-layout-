@@ -1,0 +1,1555 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url(font/Oswald-Regular.ttf) format('truetype');
+}
+
+* {
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    //font-family: 'Oswald', sans-serif;
+}
+
+body {
+    background-color: #e5e5e5;
+}
+
+
+@media only screen and (min-width: 769px) {    
+    .wrapper {
+        width: 1440px;
+        height: 2790px;
+        margin: auto auto auto auto;
+        background-color: white;
+    }
+
+    .header {
+        position: relative;
+        width: 1330px;
+        height: 696px;
+        margin: 0 0 auto auto;
+    }
+
+    .header_background {
+        background-image: url(images/background_cat.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 720px;
+        height: 696px;
+        margin: 0 0 auto auto;
+    }
+
+    .header_bottle {
+        background-image: url(images/BottleCatEnergy.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: -7px -50px;
+        width: 552px;
+        height: 499px;
+        position: absolute;
+        left: 448px;
+        top: 141px;
+    }
+
+    .header_bottom {
+        width: 244px;
+        height: 54px;
+        background-color: #68B738;
+        position: absolute;
+        left: 80px;
+        top: 455px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #69b738cf;
+        }
+        &:active {
+            background-color: #68B738;
+        }
+    }
+
+    .header_bottom_text{
+        font-size: 16px;
+        line-height: 54px;
+        text-align: center;
+        color: white;
+    }
+
+    .header_menu {
+        width: 478px;
+        height: 40px;
+        position: absolute;
+        left: 741px;
+        top: 69px;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    .header_menu_text{
+        font-size: 18px;
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        cursor: pointer;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .header-logo {
+        width: 202px;
+        height: 59px;
+        background-image: url(images/Logo-Desktop.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        top: 53px;
+        cursor: pointer;
+    }
+
+    .header_text1 {
+        width: 414px;
+        height: 120px;
+        font-size: 60px;
+        position: absolute;
+        font-family: 'Oswald', sans-serif;
+        line-height: 100%;
+        left: 80px;
+        top: 223px;
+    }
+
+    .header_text2 {
+        width: 283px;
+        height: 20px;
+        font-size: 17px;
+        font-weight: bold;
+        position: absolute;
+        font-family: 'Oswald', sans-serif;
+        left: 80px;
+        top: 383px;
+    }
+
+    .main1 {
+        width: 1440px;
+        height: 527px;
+        display: inline-flex;   
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;   
+    }
+
+    .main1_panel {
+        width: 570px;
+        height: 374px;
+        position: relative;
+        background-color: #f2f2f2; 
+    }
+
+    .image {
+        width: 106px;
+        height: 106px;
+        position: absolute;
+        left: 52px;
+        top: 52px;
+    }
+
+    .image--Mod1 {
+        width: 24px;
+        height: 12px;
+        left: 188px;
+        top: 284px;
+    }
+
+    .image--Mod2 {
+        width: 134px;
+    }
+
+    .text1 {
+        overflow: hidden;
+        font-size: 36px;
+        line-height: 42px;
+        position: absolute;
+        left: 214px;
+        top: 77px;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .text2 {
+        overflow: hidden;
+        font-size: 16px;
+        line-height: 24px;
+        position: absolute;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .text2--Mod1 {
+        left: 52px;
+        top: 186px;
+    }
+
+    .text3 {
+        font-size: 17px;
+        font-weight: bold;
+        position: absolute;
+        left: 52px;
+        top: 281px;
+        cursor: pointer;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .main2 {
+        width: 1340px;
+        height: 360px;
+        position: relative;
+        margin: 0 0 auto auto;
+    }
+
+    .main2_text1 {
+        width: 375px;
+        height: 60px;
+        font-size: 60px;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .main2--Mod {
+        width: 1240px;
+        height: 325px;
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        align-items: center;
+    }
+
+    .main2_panel {
+        width: 230px;
+        height: 280px;
+        position: relative;
+    }
+
+    .text2--Mod2 {
+        top: 155px;
+    }
+
+    .main2_panel_image {
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        top: 40px;
+    }
+
+    .main2_panel_graytext {
+        font-size: 275px;
+        color: #F2F2F2;
+        position: absolute;
+        left: 80px;
+        top: 5px;
+    }
+
+    .main3 {
+        width: auto;
+        height: 656px;
+        position: relative;
+        box-shadow: inset 0px -462px 0px 0px #F2F2F2;
+    }
+
+    .main3_text1 {
+        width: 325px;
+        height: 60px;
+        font-size: 60px;
+        position: absolute;
+        margin: 58px auto auto 110px;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .main3_panel1 {
+        width: 436px;
+        height: 317px;
+        position: absolute;
+        left: 110px;
+        top: 275px;
+    }
+
+    .main3_panel1_KgDay {
+        width: 366px;
+        height: 72px;
+        margin-top: 165px;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    .PanelKgDay {
+        width: 162px;
+        height: 72px;
+        border: 1px solid #CDCDCD;
+        border-radius: 3px;
+    }
+
+    .PanelKgDay_text1 {
+        width: 126px;
+        height: 30px;
+        font-size: 32px;
+        line-height: 72px;
+        text-align: center;
+        margin: 0 auto 0 auto;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .PanelKgDay_text2 {
+        width: 110px;
+        height: 14px;
+        font-size: 14px;
+        text-align: center;
+        background-color: #F2F2F2;
+        margin: 34px auto 0 auto;
+    }
+
+    .PanelKgDay_text2--Mod {
+        width: 138px;
+    }
+
+    .PanelKgDay_text3 {
+        font-size: 20px;
+        font-weight: bold;
+        position: absolute;
+        left: 0px;
+        top: 297px;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .PanelKgDay_text3-mod {
+        left: 240px;
+    }
+
+    .main3_panel2 {
+        width: 676px;
+        height: 656px;
+        margin-left: 680px;
+        position: relative;
+    }
+
+    .main3_panel2_Cat {
+        display: inline-block;
+        width: 338px;
+        height: 656px;
+        background-repeat: no-repeat;
+    }
+
+    .main3_panel2_Cat--FatCat {
+        background-image: url(images/CatFat.png);
+        background-size: 180%;
+        background-position-y: 70px;
+        background-position-x: 0px;
+    }
+
+    .main3_panel2_Cat--SlimCat {
+        background-image: url(images/CatSlim.png);
+        background-size: 146%;
+        background-position-y: 50px;
+        background-position-x: -233px;
+    }
+
+    .main3_panel2_ScrollBar {
+        width: 569px;
+        height: 40px;
+        position: absolute;
+        margin: 0 auto 0 auto;
+        left: 53px;
+        top: 563px;
+        display: inline-flex;
+        justify-content: space-evenly;
+    }
+
+    .main3_panel2_Scroll_text {
+        width: 50px;
+        height: 30px;
+        font-size: 20px;
+        font-weight: bold;
+        border-bottom: 2px dashed #CDCDCD;;
+        cursor: pointer;
+        line-height: 32px;
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+    }
+
+    .main3_panel2_Scroll {
+        width: 400px;
+        height: 6px;
+        border-radius: 3px;
+        background-color: #CDCDCD;
+        margin: auto 0 auto 0;
+        cursor: pointer;
+    }
+
+    .main3_panel2_ScrollPointer {
+        width: 33px;
+        height: 33px;
+        border-radius: 50%;
+        background-color: white;
+        border: 1px solid #CDCDCD;
+        position: absolute;
+        top: 2px;
+        left: 270px;
+        display: flex;
+        cursor: pointer;
+        box-shadow: 0px 2px 4px gray;
+    }
+
+    .Point {
+        width: 8px;
+        height: 8px;
+        background-color: #68B738;
+        border-radius: 50%;
+        margin: auto;
+    }
+
+    .main4 {
+        width: auto;
+        height: 400px;
+        background-image: url(images/map.png);
+        background-size: cover;
+        background-position: center center;
+        position: relative;
+    }
+
+    .main4_MapPointer {
+        width: 113px;
+        height: 106px;
+        background-image: url(images/MapPointer.png);
+        background-size: cover;
+        background-position: center center;
+        position: absolute;
+        left: 905px;
+        top: 100px;
+    }
+
+    .main4_MapAddres {
+        width: 570px;
+        height: 201px;
+        background-color: white;
+        position: absolute;
+        left: 100px;
+        top: 100px;
+    }
+
+    .main4_MapAddres_text1 {
+        width: 163px;
+        height: 83px;
+        font-size: 20px;
+        line-height: 25px;
+        position: absolute;
+        left: 76px;
+        top: 66px;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .main4_MapAddres_text2 {
+        width: 155px;
+        height: 40px;
+        font-size: 16px;
+        line-height: 20px;
+        position: absolute;
+        left: 326px;
+        top: 66px;
+    }
+    
+    .main4_MapAddres_text2--Mod {
+        top: 122px;
+    }
+
+    .main5 {
+        width: auto;
+        height: 149px;
+        background-color: #F2F2F2;
+        display: flex;
+    }
+
+    .main5_panel {
+        width: 1220px;
+        height: 34px;
+        margin: auto;
+        display: inline-flex;
+    }
+
+    .main5_panel_1 {
+        width: 128px;
+        height: 24px;
+        margin: auto;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    .main5_panel_1--Mod {
+        width: 129px;
+        height: 33px;
+    }
+
+    .ImageNameLogo {
+        width: 128px;
+        height: 24px;
+        margin: auto;
+        cursor: pointer;
+    }
+
+    .ImageNameLogo--Mod1 {
+        width: 30px;
+        height: 22px;
+    }
+    .ImageNameLogo--Mod2 {
+        width: 23px;
+        height: 23px;
+    }
+
+    .ImageNameLogo--Mod3 {
+        width: 28px;
+        height: 33px;
+    }
+
+    .ImageNameLogo--Mod4 {
+        width: 163px;
+        height: 34px;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+    .wrapper {
+        width: 768px;
+        height: 4301px;
+        background-color: pink;
+        margin: auto auto auto auto;
+        background-color: white;
+    }
+
+    .header {
+        position: relative;
+        width: 768px;
+        height: 1025px;
+    }
+
+    .header_bottle {
+        background-image: url(images/BottleCatEnergy.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: -7px -62px;
+        width: 709px;
+        height: 630px;
+        position: absolute;
+        left: 30px;
+        top: 341px;
+    }
+
+    .header_bottom {
+        width: 244px;
+        height: 54px;
+        background-color: #68B738;
+        position: absolute;
+        left: 112px;
+        top: 370px;
+        cursor: pointer;
+
+        &:active {
+            background-color: #68B738;
+        }
+    }
+
+    .header_bottom_text{
+        font-size: 16px;
+        line-height: 54px;
+        text-align: center;
+        color: white;
+    }
+
+    .header_menu {
+        width: 440px;
+        height: 36px;
+        position: absolute;
+        left: 299px;
+        top: 47px;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    .header_menu_text{
+        font-size: 18px;
+        line-height: 24px;
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+        color: black;
+        cursor: pointer;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .header-logo {
+        width: 202px;
+        height: 59px;
+        background-image: url(images/Logo-Desktop.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        top: 24px;
+        left: 30px;
+        cursor: pointer;
+    }
+
+    .header_text1 {
+        width: 414px;
+        height: 120px;
+        font-size: 60px;
+        position: absolute;
+        font-family: 'Oswald', sans-serif;
+        line-height: 100%;
+        left: 117px;
+        top: 140px;
+    }
+
+    .header_text2 {
+        width: 283px;
+        height: 20px;
+        font-size: 17px;
+        font-weight: bold;
+        position: absolute;
+        font-family: 'Oswald', sans-serif;
+        left: 117px;
+        top: 301px;
+    }
+
+    .main1 {
+        width: 768px;
+        height: 774px;
+        display: inline-flex;   
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-content: space-between;   
+    }
+
+    .main1_panel {
+        width: 708px;
+        height: 372px;
+        position: relative;
+        background-color: #f2f2f2; 
+    }
+
+    .image {
+        width: 200px;
+        height: 211px;
+        position: absolute;
+        left: 446px;
+        top: 81px;
+    }
+
+    .image--Mod1 {
+        width: 24px;
+        height: 12px;
+        left: 185px;
+        top: 302px;
+    }
+
+    .image--Mod2 {
+        width: 268px;
+        left: 412px;
+    }
+
+    .text1 {
+        overflow: hidden;
+        font-size: 36px;
+        line-height: 42px;
+        position: absolute;
+        left: 53px;
+        top: 81px;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .text2 {
+        overflow: hidden;
+        font-size: 16px;
+        line-height: 24px;
+        position: absolute;
+    }
+
+    .text2--Mod1 {
+        width: 377px;
+        height: 96px;
+        left: 53px;
+        top: 137px;
+    }
+
+    .text3 {
+        font-size: 20px;
+        font-weight: bold;
+        position: absolute;
+        left: 52px;
+        top: 292px;
+        font-family: 'Oswald', sans-serif;
+        cursor: pointer;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .main2 {
+        width: 768px;
+        height: 781px;
+        position: relative;
+        margin: 0 0 auto auto;
+    }
+
+    .main2_text1 {
+        width: 375px;
+        height: 60px;
+        font-size: 60px;
+        font-family: 'Oswald', sans-serif;
+        margin-left: 30px;
+        margin-top: 45px;
+    }
+
+    .main2--Mod {
+        width: 623px;
+        height: 544px;
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 30px;
+        margin-top: 72px;
+        align-items: center;
+    }
+
+    .main2_panel {
+        width: 230px;
+        height: 280px;
+        position: relative;
+    }
+
+    .text2--Mod2 {
+        top: 155px;
+    }
+
+    .main2_panel_image {
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        top: 40px;
+    }
+
+    .main2_panel_graytext {
+        font-size: 275px;
+        color: #F2F2F2;
+        position: absolute;
+        left: 80px;
+        top: 5px;
+    }
+
+    .main3 {
+        width: auto;
+        height: 1000px;
+        position: relative;
+        border-top: 1px solid #e5e5e5;
+        box-shadow: inset 0px -455px 0px 0px #F2F2F2;
+    }
+
+    .main3_text1 {
+        width: 325px;
+        height: 60px;
+        font-size: 60px;
+        position: absolute;
+        margin: 0px auto auto 30px;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .main3_panel1 {
+        width: 700px;
+        height: 317px;
+        position: absolute;
+        left: 30px;
+        top: 123px;
+    }
+
+    .main3_panel1_KgDay {
+        width: 366px;
+        height: 72px;
+        margin-top: 126px;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    .PanelKgDay {
+        width: 162px;
+        height: 72px;
+        border: 1px solid #CDCDCD;
+        border-radius: 3px;
+    }
+
+    .PanelKgDay_text1 {
+        width: 126px;
+        height: 30px;
+        font-size: 32px;
+        line-height: 72px;
+        text-align: center;
+        margin: 0 auto 0 auto;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .PanelKgDay_text2 {
+        width: 110px;
+        height: 14px;
+        font-size: 14px;
+        text-align: center;
+        background-color: white;
+        margin: 34px auto 0 auto;
+    }
+
+    .PanelKgDay_text2--Mod {
+        width: 138px;
+    }
+
+    .PanelKgDay_text3 {
+        width: 174px;
+        height: 20px;
+        font-size: 20px;
+        font-weight: bold;
+        position: absolute;
+        left: 533px;
+        top: 137px;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .PanelKgDay_text3-mod {
+        left: 533px;
+        top: 166px;
+    }
+
+    .main3_panel2 {
+        width: 708px;
+        height: 620px;
+        top: 350px;
+        left: 50px;
+        position: absolute;
+    }
+
+    .main3_panel2_Cat {
+        display: inline-block;
+        width: 338px;
+        height: 656px;
+        background-repeat: no-repeat;
+    }
+
+    .main3_panel2_Cat--FatCat {
+        background-image: url(images/CatFatTablet.png);
+        background-size: 100%;
+        background-position-y: 20px;
+        background-position-x: 0px;
+    }
+
+    .main3_panel2_Cat--SlimCat {
+        background-image: url(images/CatSlimTablet.png);
+        background-size: 100%;
+        background-position-y: 35px;
+    }
+
+    .main3_panel2_ScrollBar {
+        width: 569px;
+        height: 40px;
+        position: absolute;
+        margin: 0 auto 0 auto;
+        left: 53px;
+        top: 563px;
+        display: inline-flex;
+        justify-content: space-evenly;
+    }
+
+    .main3_panel2_Scroll_text {
+        width: 50px;
+        height: 30px;
+        font-size: 20px;
+        font-weight: bold;
+        border-bottom: 2px dashed #CDCDCD;;
+        cursor: pointer;
+        line-height: 32px;
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+    }
+
+    .main3_panel2_Scroll {
+        width: 400px;
+        height: 6px;
+        border-radius: 3px;
+        background-color: #CDCDCD;
+        margin: auto 0 auto 0;
+        cursor: pointer;
+    }
+
+    .main3_panel2_ScrollPointer {
+        width: 33px;
+        height: 33px;
+        border-radius: 50%;
+        background-color: white;
+        border: 1px solid #CDCDCD;
+        position: absolute;
+        top: 2px;
+        left: 270px;
+        display: flex;
+        cursor: pointer;
+        box-shadow: 0px 2px 4px gray;
+    }
+
+    .Point {
+        width: 8px;
+        height: 8px;
+        background-color: #68B738;
+        border-radius: 50%;
+        margin: auto;
+    }
+
+    .main4 {
+        width: auto;
+        height: 601px;
+        background-image: url(images/map-mini.png);
+        background-size: contain;
+        background-position: center 201px;
+        position: relative;
+    }
+
+    .main4_MapPointer {
+        width: 113px;
+        height: 106px;
+        background-image: url(images/MapPointer.png);
+        background-size: cover;
+        background-position: center center;
+        position: absolute;
+        left: 305px;
+        top: 350px;
+    }
+
+    .main4_MapAddres {
+        width: auto;
+        height: 201px;
+        background-color: white;
+    }
+
+    .main4_MapAddres_text1 {
+        width: 163px;
+        height: 83px;
+        font-size: 20px;
+        line-height: 25px;
+        position: absolute;
+        left: 76px;
+        top: 66px;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .main4_MapAddres_text2 {
+        width: 155px;
+        height: 40px;
+        font-size: 16px;
+        line-height: 20px;
+        position: absolute;
+        left: 524px;
+        top: 66px;
+        text-align: right;
+    }
+    
+    .main4_MapAddres_text2--Mod {
+        top: 122px;
+    }
+
+    .main5 {
+        width: auto;
+        height: 149px;
+        background-color: #F2F2F2;
+        display: flex;
+    }
+
+    .main5_panel {
+        width: 1220px;
+        height: 34px;
+        margin: auto;
+        display: inline-flex;
+    }
+
+    .main5_panel_1 {
+        width: 128px;
+        height: 24px;
+        margin: auto;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    .main5_panel_1--Mod {
+        width: 129px;
+        height: 33px;
+    }
+
+    .ImageNameLogo {
+        width: 128px;
+        height: 24px;
+        margin: auto;
+        cursor: pointer;
+    }
+
+    .ImageNameLogo--Mod1 {
+        width: 30px;
+        height: 22px;
+    }
+    .ImageNameLogo--Mod2 {
+        width: 23px;
+        height: 23px;
+    }
+
+    .ImageNameLogo--Mod3 {
+        width: 28px;
+        height: 33px;
+    }
+
+    .ImageNameLogo--Mod4 {
+        width: 163px;
+        height: 34px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    
+    .wrapper {
+        width: 320px;
+        height: auto;
+        margin: auto auto auto auto;
+        background-color: #e5e5e5;
+    }
+
+    .header {
+        position: relative;
+        width: 320px;
+        height: 480px;
+        margin: 0 0 auto auto;
+        background-color: white;
+    }
+
+    .header-mobilmenu {
+        width: 320px;
+        height: 59px;
+        background-color: white;
+        display: inline-flex;
+        justify-content: space-around;
+    }
+
+    .header-logo_logo {
+        width: 34px;
+        height: 38px;
+        background-image: url(images/Favicon.png);
+        background-size: contain;
+        margin: auto;
+    }
+
+    .header-logo_name {
+        width: 101px;
+        height: 18px;
+        background-image: url(images/LogoName2.png);
+        background-size: contain;
+        margin: auto;
+    }
+
+    .header-logo_menu {
+        width: 24px;
+        height: 16px;
+        background-image: url(images/MenuIcon.png);
+        background-size: contain;
+        margin: auto;
+        cursor: pointer;
+    }
+
+    .header-Panel {
+        width: 320px;
+        height: 59px;
+        background-color: white;
+        margin-top: 1px;
+        display: none;
+    }
+
+    .header-Panel--show {
+        display: block;
+    }
+
+    .header-logo_menu--show {
+        width: 18px;
+        height: 18px;
+        background-image: url(images/MenuIcon2.png);
+    }
+
+    .header_background {
+        background-image: url(images/background_cat2.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 320px;
+        height: 305px;
+        margin: 0 0 auto auto;
+    }
+
+    .header_bottle {
+        background-image: url(images/BottleCatEnergy.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 280px;
+        height: 270px;
+        position: absolute;
+        top: 150px;
+    }
+
+    .header_bottom {
+        width: 280px;
+        height: 40px;
+        background-color: #68B738;
+        position: absolute;
+        left: 20px;
+        top: 440px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #69b738cf;
+        }
+        &:active {
+            background-color: #68B738;
+        }
+    }
+
+    .header_bottom_text{
+        font-size: 16px;
+        line-height: 40px;
+        text-align: center;
+        color: white;
+    }
+
+    .header_menu_text--mobil{
+        font-size: 18px;
+        line-height: 59px;
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+        color: black;
+        cursor: pointer;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .header_text1 {
+        width: 249px;
+        font-size: 36px;
+        font-family: 'Oswald', sans-serif;
+        line-height: 100%;
+        text-align: center;
+        position: absolute;
+        top: 27px;
+        left: 36px;
+    }
+
+    .header_text2 {
+        width: 198px;
+        height: 14px;
+        font-size: 14px;
+        font-weight: bold;
+        position: absolute;
+        font-family: 'Oswald', sans-serif;
+        left: 60px;
+        top: 124px;
+    }
+
+    .main1 {
+        width: 320px;
+        height: 601px;
+        display: inline-flex;   
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;  
+        background-color: white; 
+    }
+
+    .main1_panel {
+        width: 280px;
+        height: 266px;
+        position: relative;
+        background-color: #f2f2f2; 
+    }
+
+    .image {
+        width: 50px;
+        height: 53px;
+        position: absolute;
+        left: 22px;
+        top: 24px;
+    }
+
+    .image--Mod1 {
+        width: 24px;
+        height: 12px;
+        left: 121px;
+        top: 234px;
+    }
+
+    .image--Mod2 {
+        width: 67px;
+    }
+
+    .image--Mod3 {
+        left: 13px;
+    }
+
+    .text1 {
+        font-size: 24px;
+        line-height: 24px;
+        position: absolute;
+        left: 91px;
+        top: 40px;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .text2 {
+        font-size: 14px;
+        line-height: 20px;
+        position: absolute;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .text2--Mod1 {
+        left: 20px;
+        top: 96px;
+    }
+
+    .text3 {
+        font-size: 16px;
+        font-weight: bold;
+        position: absolute;
+        left: 20px;
+        top: 228px;
+        font-family: 'Oswald', sans-serif;
+        cursor: pointer;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .line {
+        background-color: #D9D9D9;
+        width: 240px;
+        height: 1px;
+        position: absolute;
+        left: 20px;
+        top: 209px;
+    }
+
+    .main2 {
+        width: 320px;
+        height: 485px;
+        position: relative;
+        margin: 0 0 auto auto;
+        background-color: white;
+    }
+
+    .main2_text1 {
+        width: 320px;
+        height: 50px;
+        font-size: 36px;
+        margin-left: 20px;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .main2--Mod {
+        width: 320px;
+        height: 355px;
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .main2_panel {
+        width: 278px;
+        height: 58px;
+        position: relative;
+        margin-left: 20px;
+    }
+
+    .text2--Mod2 {
+        width: 176px;
+        height: 54px;
+        left: 80px;
+        top: 40px;
+    }
+
+    .main2_panel_image {
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        top: 40px;
+    }
+
+    .main3 {
+        width: auto;
+        height: 705px;
+        position: relative;
+        box-shadow: inset 0px -705px 0px 0px #F2F2F2;
+    }
+
+    .main3_text1 {
+        width: 320px;
+        height: 60px;
+        font-size: 36px;
+        line-height: 40px;
+        position: absolute;
+        margin: 27px auto auto 20px;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .main3_panel1 {
+        width: 280px;
+        height: 243px;
+        position: absolute;
+        left: 20px;
+        top: 95px;
+    }
+
+    .main3_panel1_KgDay {
+        width: 280px;
+        height: 72px;
+        margin-top: 165px;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    .PanelKgDay {
+        width: 124px;
+        height: 64px;
+        border: 1px solid #CDCDCD;
+        border-radius: 3px;
+    }
+
+    .PanelKgDay_text1 {
+        width: 126px;
+        height: 30px;
+        font-size: 24px;
+        line-height: 63px;
+        text-align: center;
+        margin: 0 auto 0 auto;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .PanelKgDay_text2 {
+        width: 75px;
+        height: 14px;
+        font-size: 12px;
+        text-align: center;
+        background-color: #F2F2F2;
+        margin: 25px auto 0 auto;
+    }
+
+    .PanelKgDay_text2--Mod {
+        width: 85px;
+    }
+
+    .PanelKgDay_text3 {
+        font-size: 14px;
+        font-weight: bold;
+        position: absolute;
+        left: 45px;
+        top: 280px;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .PanelKgDay_text3-mod {
+        left: 170px;
+    }
+
+    .main3_panel2 {
+        width: 320px;
+        height: 318px;
+        position: absolute;
+        margin-top: 380px;
+        margin-left: 10px;
+    }
+
+    .main3_panel2_Cat {
+        display: inline-block;
+        width: 160px;
+        height: 242px;
+        background-repeat: no-repeat;
+    }
+
+    .main3_panel2_Cat--FatCat {
+        background-image: url(images/CatFat.png);
+        background-size: 140%;
+        background-position-y: 77px;
+        background-position-x: 37px;
+    }
+
+    .main3_panel2_Cat--SlimCat {
+        background-image: url(images/CatSlim.png);
+        background-size: 114%;
+        background-position-y: 70px;
+        background-position-x: -84px;
+    }
+
+    .main3_panel2_ScrollBar {
+        width: 197px;
+        height: 14px;
+        position: absolute;
+        margin: 0 auto 0 auto;
+        left: 53px;
+        top: 267px;
+        display: inline-flex;
+        justify-content: space-evenly;
+    }
+
+    .main3_panel2_Scroll_text {
+        width: 50px;
+        height: 30px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        line-height: 12px;
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+    }
+
+    .main3_panel2_Scroll {
+        width: 84px;
+        height: 14px;
+        border-radius: 10px;
+        background-color: white;
+        border: 1px solid #cdcdcd;
+        margin: auto 0 auto 0;
+        cursor: pointer;
+    }
+
+    .main3_panel2_ScrollPointer {
+        width: 41px;
+        height: 6px;
+        border-radius: 10px;
+        background-color: #68B738;
+        position: absolute;
+        top: 5px;
+        left: 62px;
+        display: flex;
+        cursor: pointer;
+    }
+
+    .main4 {
+        width: auto;
+        height: 476px;
+        background-image: url(images/map-mobil.png);
+        background-size: 105%;
+        background-position: 0px 114px;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .main4_MapPointer {
+        width: 57px;
+        height: 53px;
+        background-image: url(images/MapPointer.png);
+        background-size: cover;
+        background-position: center center;
+        position: absolute;
+        left: 141px;
+        top: 261px;
+    }
+
+    .main4_MapAddres {
+        width: 320px;
+        height: 114px;
+        background-color: white;
+    }
+
+    .main4_MapAddres_text1 {
+        width: 140px;
+        height: 64px;
+        font-size: 16px;
+        line-height: 18px;
+        position: absolute;
+        left: 19px;
+        top: 28px;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .main4_MapAddres_text2 {
+        width: 140px;
+        height: 25px;
+        font-size: 14px;
+        line-height: 18px;
+        position: absolute;
+        left: 161px;
+        top: 28px;
+    }
+    
+    .main4_MapAddres_text2--Mod {
+        top: 68px;
+    }
+
+    .main5 {
+        width: auto;
+        height: 236px;
+        background-color: #F2F2F2;
+    }
+
+    .main5_panel {
+        width: 320px;
+        height: 236px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main5_panel_1 {
+        width: 320px;
+        height: 75px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .main5_panel_1--Mod {
+        width: 129px;
+    }
+
+    .line-mod {
+        background-color: #D9D9D9;
+        width: 280px;
+        height: 1px;
+        margin: 0 auto 0 auto;
+    }
+
+    .ImageNameLogo {
+        width: 128px;
+        height: 24px;
+        margin: auto;
+        cursor: pointer;
+    }
+
+    .ImageNameLogo--Mod1 {
+        width: 30px;
+        height: 22px;
+    }
+    .ImageNameLogo--Mod2 {
+        width: 23px;
+        height: 23px;
+    }
+
+    .ImageNameLogo--Mod3 {
+        width: 28px;
+        height: 33px;
+    }
+
+    .ImageNameLogo--Mod4 {
+        width: 163px;
+        height: 34px;
+    }
+}
